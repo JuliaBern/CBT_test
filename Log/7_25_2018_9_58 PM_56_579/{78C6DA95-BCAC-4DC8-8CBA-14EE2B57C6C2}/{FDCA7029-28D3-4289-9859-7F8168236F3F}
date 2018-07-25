@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5B6FF4A5-DC08-4F81-82D6-016CCE6FE94D}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;b&gt;passed&lt;/b&gt;: Aliases.browser.pageSoft...toringDev.form.textnode.contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Unleash your passion to create great software...&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;table style='width: 100%'&gt;&lt;tr&gt;&lt;th style='width: 10%'&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{BFD427FA-805E-4910-BD87-C1E5369D5BC0}.{94A04917-86DF-4A88-9725-9E170153418A}'&gt;Aliases.browser.pageSoftwareTestingMonitoringDev.form.textnode&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&quot;Unleash your passion to create great software,↴think bigger, and build smarter&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&quot;Unleash your passion to create great software,↴think bigger, and build smarter&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="date" type="D" value="43306.5826456134"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Unleash your passion to create great software...&quot;."/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://smartbear.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="43306.5826115046"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Navigating to the https://smartbear.com/ page."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Google Chrome"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="43306.5825243171"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="You are trying to access the following browser:&#xA;Mozilla Firefox (Any)&#xA;This browser cannot be accessed in this environment. The following browser is used instead:&#xA;Google Chrome ver.66.0.3359.117 (x86)&#xA;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="43306.5825240857"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Another browser is used."/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

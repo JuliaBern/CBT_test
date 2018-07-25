@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Version="1">
+	<Providers>
+		<A609CA20xCE0Bx4080x93FCx121361DAEEF9 version="1">
+			<groups>
+				<Group0 Caption="&lt;root&gt;Test1" Key="5F0A4C94xAD1Cx47C3xA360xD23D8D343B81" Enabled="True">
+					<Hosts>
+						<Host0 Device="Windows 10" Browser="Google Chrome 66" Resolution="1920x1080" DeviceApi="Win10" BrowserApi="Chrome66" ResolutionApi="1920x1080" />
+					</Hosts>
+					<Tests>
+						<Test0 Name="Test1" Project="TestProject1" TestName="Script|Unit1|Test1" Key="BFB67CABx84EEx47D3x871Ex4FF894390589" />
+					</Tests>
+					<TestItems />
+				</Group0>
+			</groups>
+			<tunnels />
+		</A609CA20xCE0Bx4080x93FCx121361DAEEF9>
+	</Providers>
+</Root>
